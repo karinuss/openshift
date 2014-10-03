@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="wildfly8:war exploded">
+    <output-path>$PROJECT_DIR$/target/wildfly8-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="wildfly8" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="wildfly8/web/Web" />
+    </root>
+  </artifact>
+</component>

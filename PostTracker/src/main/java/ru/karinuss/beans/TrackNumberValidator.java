@@ -14,7 +14,8 @@ import javax.faces.context.FacesContext;
 import javax.faces.validator.FacesValidator;
 import javax.faces.validator.Validator;
 import javax.faces.validator.ValidatorException;
-import ru.karinuss.posttrackparser.PosttrackParser;
+
+import ru.karinuss.posttrackparser.PostTrackParser;
 
 @FacesValidator("ru.karinuss.beans.TrackNumberValidator")
 public class TrackNumberValidator implements Validator {
@@ -42,7 +43,7 @@ public class TrackNumberValidator implements Validator {
             throw new ValidatorException(msg);
         }
         
-        PosttrackParser parser = PosttrackParser.getInstance();
+        PostTrackParser parser = PostTrackParser.getInstance();
         if(!parser.validDigits(number)) {    
             FacesMessage msg = new FacesMessage("Invalid CRC code!");
             msg.setSeverity(FacesMessage.SEVERITY_ERROR);

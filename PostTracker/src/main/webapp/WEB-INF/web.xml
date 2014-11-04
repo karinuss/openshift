@@ -19,6 +19,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>faces/trackparser.xhtml</welcome-file>
+        <welcome-file>faces/tracker.xhtml</welcome-file>
     </welcome-file-list>
 </web-app>

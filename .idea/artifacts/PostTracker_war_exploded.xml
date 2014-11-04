@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PostTracker:war exploded">
+    <output-path>$PROJECT_DIR$/PostTracker/target/PostTracker-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PostTracker" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="PostTracker/web/Web" />
+    </root>
+  </artifact>
+</component>

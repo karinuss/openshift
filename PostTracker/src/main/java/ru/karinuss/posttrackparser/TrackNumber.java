@@ -39,7 +39,7 @@ public class TrackNumber {
     }
 
     public void parseNumber() throws InvalidTrackNumberException {
-        PosttrackParser parser = PosttrackParser.getInstance();
+        PostTrackParser parser = PostTrackParser.getInstance();
 
         try {
             carrier = parser.parseNumber(number);

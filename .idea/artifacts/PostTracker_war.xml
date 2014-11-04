@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PostTracker:war">
+    <output-path>$PROJECT_DIR$/PostTracker/target</output-path>
+    <root id="archive" name="PostTracker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="PostTracker:war exploded" />
+    </root>
+  </artifact>
+</component>
